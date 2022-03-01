@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lãi ngân hàng</title>
+</head>
+<body>
+<script>
+    let money = +prompt("Nhập vào số tiền ban đầu: ");
+    let month = +prompt("Nhập vào số tháng cho vay: ");
+    let profit = +prompt("Nhập vào lãi xuất hàng tháng: ");
+    for (i = 0; i < month; i++) {
+        money = money + money * profit
+    } alert(money)
+</script>
+</body>
+</html>

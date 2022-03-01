@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hình chữ nhật rỗng</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhập vào chiều dài: ");
+    let b = +prompt("Nhạp vào chiều rộng: ");
+    for (let i = 0; i < b; i++) {
+        for (let j = 0; j < a; j++) {
+            if (i == 0 || i == b - 1 || j == 0 || j == a - 1) {
+                document.write("*");
+            } else {
+                document.write("&nbsp;&nbsp");
+            }
+        } document.write("<br>")
+    }
+</script>
+</body>
+</html>
